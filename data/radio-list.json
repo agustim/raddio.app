@@ -1,0 +1,98 @@
+[
+    {
+        "name": "NIA Radio - Lofi",
+        "image": "Radio-NIA.png",
+        "infoUrl": "https://nia.nc/",
+        "infoLocation": "Nouméa, New Calédonia",
+        "infoFlag": "nc",
+        "streamUrl": "https://radio.nia.nc/radio/8020/lofi-hq-stream.aac"
+    },
+    {
+        "name": "Chillsky.com",
+        "image": "Radio-Chillsky.jpg",
+        "infoUrl": "https://chillsky.com",
+        "infoLocation": "London, United Kingdom",
+        "infoFlag": "gb-eng",
+        "streamUrl": "https://lfhh.radioca.st/stream"
+    },
+    {
+        "name": "Chillout Radio",
+        "image": "Radio-chillout_ru.png",
+        "infoUrl": "https://chilloutradio.ru/",
+        "infoLocation": "Moscow, Russia",
+        "infoFlag": "ru",
+        "streamUrl": "https://api.chilloutradio.ru:8040/live"
+    },
+    {
+        "name": "BOX : Lofi Radio",
+        "image": "Radio-boxlofi.jpg",
+        "infoUrl": "https://boxradio.net/",
+        "infoLocation": "London, United Kingdom",
+        "infoFlag": "gb-eng",
+        "streamUrl": "https://play.streamafrica.net/lofiradio"
+    },
+    {
+        "name": "freeCodeCamp.org Code Radio",
+        "image": "Radio-FreeCodeCamp.jpg",
+        "infoUrl": "https://coderadio.freecodecamp.org/",
+        "infoLocation": "San Francisco, CA, United States",
+        "infoFlag": "us-ca",
+        "streamUrl": "https://coderadio-admin.freecodecamp.org/radio/8010/radio.mp3"
+    },
+    {
+        "name": "24/7 Lofi Radio",
+        "image": "Radio-247Lofi.jpg",
+        "infoUrl": "https://www.247lofiradio.com/",
+        "infoLocation": "London, United Kingdom",
+        "infoFlag": "gb-eng",
+        "streamUrl": "https://ec3.yesstreaming.net:3755/stream"
+    },
+    {
+        "name": "Sensual Lounge",
+        "image": "Radio-SensualLounge.jpg",
+        "infoUrl": "https://maggie.torontocast.com:2020/public/sensuallounge",
+        "infoLocation": "Toronto, Canada",
+        "infoFlag": "ca",
+        "streamUrl": "https://maggie.torontocast.com:8028/stream"
+    },
+    {
+        "name": "Радио Рекорд Lo-Fi",
+        "image": "Radio-RecordLofi.jpg",
+        "infoUrl": "https://www.radiorecord.ru/station/lofi",
+        "infoLocation": "St. Petesburg, Russia",
+        "infoFlag": "ru",
+        "streamUrl": "https://radio.garden/api/ara/content/listen/z3aOLSzU/channel.mp3"
+    },
+    {
+        "name": "NRJ - Lo-Fi",
+        "image": "Radio-NRJ-LoFi.jpg",
+        "infoUrl": "https://www.nrj.fr/webradios/mur-des-radios/nrj-lo-fi",
+        "infoLocation": "Paris, France",
+        "infoFlag": "fr",
+        "streamUrl": "https://radio.garden/api/ara/content/listen/wYBoA74O/channel.mp3"
+    },
+    {
+        "name": "bigFM LoFi Focus",
+        "image": "Radio-BigFmLofi.jpg",
+        "infoUrl": "https://www.bigfm.de/",
+        "infoLocation": "Stuttgart, Deutschland",
+        "infoFlag": "de",
+        "streamUrl": "https://audiotainment-sw.streamabc.net/atsw-lofifocus-mp3-128-3757575"
+    },
+    {
+        "name": "Soma FM Lush",
+        "image": "Radio-SomaLush.jpg",
+        "infoUrl": "https://somafm.com/lush/",
+        "infoLocation": "San Francisco, CA, United States",
+        "infoFlag": "us-ca",
+        "streamUrl": "https://ice1.somafm.com/lush-128-mp3"
+    },
+    {
+        "name": "Dr Dick's Dub Shack",
+        "image": "Radio-DubShack.png",
+        "infoUrl": "https://drdicksdubshack.com/",
+        "infoLocation": "Hamilton, Bermuda",
+        "infoFlag": "bm",
+        "streamUrl": "http://radio.garden/api/ara/content/listen/mqdXmYNU/channel.mp3"
+    }
+]

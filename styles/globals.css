@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=block');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=block');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --selected: #aaaaaa;
+    --playing: #44dd88;
+    --buffering: #dddd44;
+    --error: #dd6666;
+}
+
+#content {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+    user-select: none;
+    background-color: #282c35;
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 900;
+    font-size: 48pt;
+    margin-bottom: 25px;
+}
+
+#radioList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.radio-icon {
+    width: 120px;
+    height: 120px;
+    margin: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-drag: none;
+    -webkit-user-drag: none;
+    transition: transform 0.4s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.selected {
+    box-shadow: 0 0 5px 3px var(--selected);
+    transform: scale(1.2);
+}
+
+#selectedRadioName {
+    font-size: 14pt;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#selectedRadioLocation {
+    font-size: 11pt;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+#selectedRadioInfo {
+    font-size: 14pt;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+audio {
+    background-color: #282c35;
+    margin-bottom: 10px;
+}
+
+#footer {
+    position: fixed; bottom: 10px; right: 15px; z-index: 1000;
+}
+#footer img{
+    width: 23px; height: 22.5px; filter: opacity(0.5);
+}
