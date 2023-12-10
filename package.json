@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@capacitor/android": "^5.5.1",
     "konsta": "^3.1.2",
     "next": "13.5.5",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@capacitor/cli": "^5.5.1",
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",

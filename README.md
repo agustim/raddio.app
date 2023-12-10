@@ -74,7 +74,39 @@ export default function MyApp({ Component, pageProps }) {
 ```
 
 5. Compilem una versió estàtica:
+Afegir export a ```next.config.js```
 
 ```
-npm run static
+  output: 'export'
+```
+Quan fem build, genera un directori ```out```
+
+```
+npm run build
+```
+
+6. Instal·lar capacitor
+
+```
+npm install -D @capacitor/cli
+npx cap init --web-dir out lofi.moai app.raddio
+```
+
+7. Instal·lar dispositus
+Android:
+```
+npm install @capacitor/android
+npx cap add android
+```
+Ios:
+```
+npm install @capacitor/ios
+npx cap add ios
+```
+
+8. Compliar per dispositius
+```
+export CAPACITOR_ANDROID_STUDIO_PATH=/opt/android-studio/bin/studio.sh
+npm run static && npx cap sync && npx cap copy && npx cap open android
+
 ```
